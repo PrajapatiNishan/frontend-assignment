@@ -1,4 +1,6 @@
 import '@styles/globals.css';
+import Nav from '@components/Nav';
+import Provider from '@components/Provider';
 import { Children } from 'react';
 
 export const metadata ={
@@ -17,6 +19,7 @@ const Rootlayout = ({children}) => {
                 </div>
             </div>
             <main className='app'>
+                <Nav />
                 {children}
             </main>
         </body>

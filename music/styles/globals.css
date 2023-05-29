@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.head_text{
+    font-size: 30px;
+    text-align: center;
+}
